@@ -1,18 +1,74 @@
-/* placeholder font */
-h1, h2, h3, p {
-    font-family: Arial, Helvetica, sans-serif;
+/* General Styling */
+html {
+background: hsl(0, 0%, 100%);
 }
 
-body { 
-    background-color: hsl(0, 0%, 100%);
-    padding: 4% 10% 10% 10%; /* top right bottom left */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aeeef7;
+    margin: 2% 3%; /* top right bottom left */
+    padding: 3% 8%;
+    border-style: solid;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 750;
+}
+
+p {
+    font-size: 1.7em;
+    line-height: 1.3;
+    max-width: 40%;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
 }
 
 footer {
-    background-color: rgb(251, 163, 176);
+    background-color: #aeeef7;
 }
 
-/* ids styling */
+img {
+    border-radius: 3%;
+
+}
+
+a {
+    display: block;
+}
+
+
+/* ID styling */
 #title {
-    background-color: rgb(251, 163, 176);
+    /*background-color: rgb(251, 163, 176);*/
+    background-color: #aeeef7;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+#intro {
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Class styling */
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    margin-bottom: 7%; /* top right bottom left */
+    border-style: solid;
+    
+}
+
+.link:hover {
+    opacity: 0.7;
 }
